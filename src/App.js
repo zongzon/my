@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route, Router, Switch} from 'react-router';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import dashboard from './dashboard';
 import info from './info';
 import login from './login';
